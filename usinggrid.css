@@ -1,0 +1,75 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+    font-style: italic;
+  }
+  .color{
+    background-color: rgb(236, 85, 85);
+  }
+  .botton{
+    color: black;
+    padding-right: 5px;
+}
+.header{
+    margin-left: 500px;
+    width: 100%;
+
+}
+#abc{
+   position: relative;
+   left: 10px;
+}
+.icon{
+    position: absolute;
+    right:20px;
+    top:17px;
+} 
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 106%;
+    width: 146px;
+    position: absolute;
+    z-index: 1;
+    top: 147px;
+    left: 8px;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 40px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .tcolor{
+    color: white;
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    position: relative;
+    left: 180px;
+    width: 348px;
+    margin: 15px;
+    margin-left: -4px;
+    padding: 10px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+  }
+  
